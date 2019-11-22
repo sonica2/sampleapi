@@ -136,5 +136,6 @@ output application/json
             </ee:message>
         </ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="51af6c1a-a21d-4d81-a568-b7fba01a5e19" message="#[payload]"/>
+		<logger level="INFO" doc:name="Logger" doc:id="7bd79a09-9406-4696-99bd-907af8771bae" message='#["Done"]'/>
     </flow>
 </mule>
